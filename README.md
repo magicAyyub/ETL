@@ -5,7 +5,6 @@ This project is a simple ETL (Extract, Transform, Load) script that extracts pro
 
 ## Prérequis
 - Python 3.x
-- Packages Python requis : `requests`, `base64`, `csv`, `hashlib`, `json`, `random`, `string`, `uuid`, `datetime`, `urllib`
 
 ## Usage
 1. Clone the repository :
@@ -13,8 +12,11 @@ This project is a simple ETL (Extract, Transform, Load) script that extracts pro
    git clone https://github.com/votre-nom/utilisation
    ```
 2. Install dependencies
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-3. launch project in the project folder :
+4. launch project in the project folder :
    ```bash
    python main.py
    ```
